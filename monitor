@@ -1,0 +1,12 @@
+local randomPlayer = game.Players:GetPlayers()[math.random(1, #game.Players:GetPlayers())]
+
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(randomPlayer.Name..", your account is being monitored. ⚙️", 'All')
+
+task.spawn(function()
+    while task.wait() do
+      game.Players.LocalPlayer.Character.PrimaryPart.CFrame = randomPlayer.Character.PrimaryPart.CFrame
+    end
+    while task.wait(4) do
+        game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(randomPlayer.Name..", your account is being monitored. ⚙️", 'All')
+    end
+end

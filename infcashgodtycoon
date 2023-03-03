@@ -1,3 +1,0 @@
-local randomPlayer = game.Players:GetPlayers()[math.random(1, #game.Players:GetPlayers())]
-
-game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('hey '..randomPlayer.Name.." ;)", 'All')
