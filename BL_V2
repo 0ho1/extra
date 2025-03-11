@@ -9,4 +9,4 @@
 
 ]]--
 
-local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v8,v9)local v19=1133 -(858 + 275) ;local v20;while true do if (v19==(1 + 0)) then return v5(v20);end if (v19==(0 + 0)) then v20={};for v21=2 -1 , #v8 do v6(v20,v0(v4(v1(v2(v8,v21,v21 + 1 + 0 )),v1(v2(v9,1 + 0 + ((v21-(439 -(243 + 195)))% #v9) ,1 + ((v21-(2 -1))% #v9) + (2 -1) )))%(388 -132) ));end v19=1 + 0 ;end end end local v10=game.Players.LocalPlayer.DataFolder.Information;local v11=game.Players.LocalPlayer.Character;task.wait((969.45 -(190 + 202)) -((1230 -(409 + 678)) + 21 + 412) );v11.LeftLowerArm.CUFF.Transparency=(1339 -(62 + 1277)) + 0 ;v11.RightLowerArm.CUFF.Transparency=0 + 0 + 0 ;local v14=24 -14 ;local v15=v14;v10.Jail.Value=tostring(v15);v11.PrimaryPart.CFrame=game.Workspace.Ignored.JAILLOCATION1.CFrame;task.wait((1991.35 -(1280 + 711)) -(0 + 0) );game.Players.LocalPlayer:Kick(v7("\103\96\124\22\227\96\101","\37\33\50\88\173"));
+game.Players.LocalPlayer:Kick("You have been permanently banned from this game.")
